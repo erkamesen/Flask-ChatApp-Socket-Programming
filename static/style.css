@@ -1,0 +1,63 @@
+html{
+    background-color: #DFDBE5;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.join{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.create-btn{
+    width: 100%;
+
+}
+
+.message-box{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 0.5);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    align-items: stretch;
+}
+
+.messages{
+    overflow-y: scroll;
+    flex:1;
+    width: 100%;
+}
+
+.inputs{
+    padding: 10px;
+    display: flex;
+}
+
+h2{
+    text-align: center;
+}
+
+#message{
+    flex:1;
+}
