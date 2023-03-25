@@ -12,7 +12,7 @@
 
 - Clone repository to your local:
 ```
-git init https://github.com/erkamesen/Flask-ChatApp-Socket-Programming.git
+git clone https://github.com/erkamesen/Flask-ChatApp-Socket-Programming.git
 ```
 
 - Navigate to directory:
